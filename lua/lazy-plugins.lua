@@ -1,4 +1,4 @@
--- NOTE sfasdfasfd
+--   NOTE sfasdfasfd
 -- [[ Configure and install plugins ]]
 --
 --  To check the current status of your plugins, run
@@ -44,6 +44,7 @@ require('lazy').setup({
   require 'z-vim.plugins.lualine',
   require 'z-vim.plugins.dashboard',
   require 'z-vim.plugins.markdown-render',
+  require 'z-vim.plugins.persistence',
 
   -- NOTE: Next step on your Neovim journey: Add/Configure additional plugins for Kickstart
   --

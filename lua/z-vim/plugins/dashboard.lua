@@ -86,10 +86,12 @@ return {
       dashboard.button('f', '  Find file', ':cd $HOME | silent Telescope find_files hidden=true no_ignore=true <CR>'),
       dashboard.button('t', '  Find text', ':Telescope live_grep <CR>'),
       dashboard.button('r', '󰄉  Recent files', ':Telescope oldfiles <CR>'),
+      dashboard.button('s', '󰝉  Restore Session', ':lua require("persistence").load()<CR>'),
+      dashboard.button('e', '󰉓  Select Session', ':lua require("persistence").select()<CR>'),
       dashboard.button('u', '󱐥  Update plugins', '<cmd>Lazy update<CR>'),
-      dashboard.button('c', '  Settings', ':e $HOME/.config/nvim/init.lua<CR>'),
-      dashboard.button('p', '  Projects', ':Neotree dir=$HOME/Projects/ <CR>'),
-      dashboard.button('d', '󱗼  Dotfiles', ':e $HOME/dotfiles <CR>'),
+      dashboard.button('c', '  Settings', ':Neotree dir=$HOME/.config/nvim<CR>'),
+      dashboard.button('p', '  Projects', ':Neotree dir=$HOME/Projects/<CR>'),
+      dashboard.button('d', '󱗼  Dotfiles', ':Neotree dir=$HOME/zdot/<CR>'),
       dashboard.button('q', '󰿅  Quit', '<cmd>qa<CR>'),
     }
 
