@@ -1,3 +1,4 @@
+-- NOTE sfasdfasfd
 -- [[ Configure and install plugins ]]
 --
 --  To check the current status of your plugins, run
@@ -23,6 +24,7 @@ require('lazy').setup({
   -- modular approach: using `require 'path/name'` will
   -- include a plugin definition from file lua/path/name.lua
 
+  require 'kickstart/plugins/codeium',
   require 'kickstart/plugins/gitsigns',
   require 'kickstart/plugins/which-key',
   require 'kickstart/plugins/telescope',
