@@ -26,6 +26,7 @@ require('lazy').setup({
 
   require 'z-vim.plugins.codeium',
   require 'z-vim.plugins.gitsigns',
+  require 'z-vim.plugins.neogit',
   require 'z-vim.plugins.which-key',
   require 'z-vim.plugins.telescope',
   require 'z-vim.plugins.lspconfig',
